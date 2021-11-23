@@ -38,3 +38,64 @@ console.log("-4 + -5 should be -9 and it is ", add(-4,-5));
 //Example Greeting for Sweety: Hi Hello Namaste, Welcome Sweety
 //Write a function to print full name of a person, with given first and last names
 //Example full name for first name: Nagaraju, last name: Medida - Full name: Medida Nagaraju
+function add(num1, num2) {
+    return num1 + num2;
+}
+let num1 = 10;
+let num2 = 20;
+console.log(add(num1,num2));
+
+function multiple(num3,num4){
+  return num1*num2;
+}
+let num3 = 10;
+let num4 = 20;
+console.log(multiple(num3,num4));
+
+function divide(num5,num6){
+  return num5/num6;
+}
+let num5 = 10;
+let num6 = 20;
+console.log(divide(num5,num6));
+
+function reminder(num7,num8){
+  return num7%num8;
+}
+let num7 = 40;
+let num8 = 20;
+console.log(reminder(num7,num8));
+
+function greet() {
+   return("Hi Hello Namaste, Welcome Sweety");
+ }
+console.log(greet());
+
+function fullname(person) {
+  return p ("firstname" + "lastname");
+}
+const firstname = "Medida";
+const lastname  = "Nagaraju";
+console.log(fullname.firstname + fullname.lastname);
+
+function immediatenumber(num9) {
+  return num9++
+}
+let num9 = 22;
+num9++;
+console.log(immediatenumber(num9));
+
+function lastnumber(num10) {
+  return num10--;
+}
+let num10 = 22;
+num10--;
+console.log(immediatenumber(num10));
+
+/*function positive(number) {
+  return number > 0;
+}
+let number = 29;
+if number > 0;
+if number <= 0;
+ console.log(positive(number));*/
