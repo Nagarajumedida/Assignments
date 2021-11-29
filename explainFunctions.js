@@ -61,19 +61,21 @@ function greatestOf3(num1, num2, num3) {
     if (num1 > num2) {
         if ( num1 > num3){
             console.log(num1);
-        } else {
+        }
+      }
+      else {
             console.log(num3)
         }
-    }
+
     else  if (num2 > num3){
-        {
-            console.log(num2);
-        }
-    } else {
+        console.log(num2);
+
+    }
+        else {
         console.log(num3);
     }
 
-    return 1;
+    return (greatestOf3);
 } // greatestOf3 is a function does finds gretaest of given 3
 
 greatestOf3(a,b,c);
