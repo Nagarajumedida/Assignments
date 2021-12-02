@@ -20,19 +20,144 @@ console.log("-4 + -5 should be -9 and it is ", add(-4,-5));
 */
 
 //Write a function to add 2 numbers
+function add(num1,num2) {
+  console.log(num1 + num2);
+}
+add(5,10);
+
+function add(num1,num2) {
+  console.log(num1 + num2);
+}
+add(-4,4321);
+
 //Write a function to Multiply 2 numbers
+function multiple(num1,num2) {
+  console.log(num1 * num2);
+}
+multiple(50,10);
+
+function multiple(num1,num2) {
+  console.log(num1 * num2);
+}
+multiple(-5,-100);
+
 //Write a function to divide 2 numbers
+function divide(num1,num2) {
+  console.log(num1 / num2);
+}
+divide(30.5,0.5);
+
+function divide(num1,num2) {
+  console.log(num1 / num2);
+}
+divide(-1000,0.1 );
+
+
 //Write a function to get reminder
+function reminder(num1,num2) {
+  console.log(num1 % num2);
+}
+reminder(10000010,50 );
+
+function reminder(num1,num2) {
+  console.log(num1 % num2);
+}
+reminder(1238778.77,3839.77 );
+
+
 //Write a function to find the given number is positive
+function positive(num1) {
+  if (num1 > 0){
+    return (true        + " 5 number  is positive" );
+  }
+  else{
+  return (false   + " - 29 number is negative");
+}
+}
+console.log(positive(5));
+console.log(positive(-29));
+
 //Write a function to find the given number is negative
+function negative(num1) {
+  if (num1 < 0){
+    return (true        + " -288 number  is negative" );
+  }
+  else{
+  return (false  + " 5 number is positive");
+}
+}
+console.log(negative(5));
+console.log(negative(-288));
 //Write a function to get the next immediate number using assignment operator
+function increase(num1) {
+return  ++num1;
+}
+console.log(increase(99));
+
+/*function increase(num1) {
+return  num1++;
+}
+console.log(increase(99));*/
 //Write a function to get the next immediate number without using assignment operator
+
+function increase(num1) {
+return   ++num1;
+}
+console.log(increase(99));
+
+
 //Write a function to get the before immediate number using assignment operator
+function decrease(num1) {
+  return --num1;
+}
+console.log(decrease(100));
+
+/*function decrease(num1) {
+  return num1--;
+}
+console.log(decrease(100));*/
+
 //Write a function to get the before immediate number without using assignment operator
 //Write a function to find the given 2 numbers are equal
+function equal(num1,num2) {
+  if (num1 === num2) {
+    return true ;
+  }
+  else {
+    return false;
+  }
+}
+console.log(equal(2,2));
+console.log(equal(1,2));
 //Write a function to find the given argument type
 //Write a function to find greatest of 2 numbers
+function greatest(num1,num2) {
+  if (num1 < num2){
+    return  "num2 is greatest";
+  }
+  else {
+     return "num1 is greatest";
+  }
+}
+console.log(greatest(10,20));
 //Write a function to find greatest of 3 numbers
+function greatest(num1,num2,num3) {
+  if (num1 > num2){
+    if (num1 > num3){
+      return "num1 is greatest";
+    }
+  }
+  else {
+    return "num3 is greatest";
+  }
+    else  if (num2 > num3){
+    reurn "num2 is greatest";
+  }
+
+}
+console.log(greatest(10,20,30));
+console.log(gretest(10,30,20));
+console.log(gretest(30,20,10));
 
 //Write a function to greet a given person
 //Example Greeting for Sweety: Hi Hello Namaste, Welcome Sweety

@@ -1,4 +1,4 @@
-//Write a function to print Hello world
+  //Write a function to print Hello world
 function printHelloWorld() {          // 1 printHelloWorld function -> takes no arguments
     console.log("Hello world");        // 53 calls console log and hellowoRLD
 }
