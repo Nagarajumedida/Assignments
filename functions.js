@@ -107,9 +107,6 @@ function biggest(a,b,c) {  //12 print biggest number
     if (a > c) {       // 20 condition takes
       console.log("a"); // 65 calls a
     }
-    else {           //21 condition takes
-      console.log("c"); //66 calls c
-    }
   }
   else if (b > c){    //22 condition takes
     console.log("b"); //67 calls b
@@ -117,6 +114,7 @@ function biggest(a,b,c) {  //12 print biggest number
   else {       // 23 condition takes
     console.log("c"); // 68 calls c
   }
+  return ;
 }
 let a = 70;  // 46 object takes
 let b  = 50; // 47 object takes

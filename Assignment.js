@@ -141,25 +141,35 @@ function greatest(num1,num2) {
 }
 console.log(greatest(10,20));
 //Write a function to find greatest of 3 numbers
-function greatest(num1,num2,num3) {
-  if (num1 > num2){
-    if (num1 > num3){
-      return "num1 is greatest";
-    }
+function greatestof3(num1,num2,num3) {
+  if (num1 > num2)  {
+  if  (num1 < num3) {
+    console.log("num1");
   }
-  else {
-    return "num3 is greatest";
-  }
-    else  if (num2 > num3){
-    reurn "num2 is greatest";
-  }
-
 }
-console.log(greatest(10,20,30));
-console.log(gretest(10,30,20));
-console.log(gretest(30,20,10));
+    else if (num2 > num3) {
+
+      console.log("num2");
+    }
+      else {
+        console.log("num3");
+      }
+      return ;
+    }
+    let num1 = 10;
+    let num2 = 20;
+    let num3 = 30;
+    console.log(greatestof3(num1,num2,num3));
 
 //Write a function to greet a given person
 //Example Greeting for Sweety: Hi Hello Namaste, Welcome Sweety
+function greet(sweety) {
+     return sweety ;
+}
+console.log(greet("hi hello namaste,welcome sweety"));
 //Write a function to print full name of a person, with given first and last names
 //Example full name for first name: Nagaraju, last name: Medida - Full name: Medida Nagaraju
+function fullname(firstname,lastname) {
+  return (firstname,lastname);
+}
+console.log(fullname("nagaraju", "medida"));
