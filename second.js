@@ -31,9 +31,5 @@ function prime(num1) {
     console.log(true);
     return " num1 is a prime number"
   }
-  else {
-    console.log(false);
-    return " num1 is not a prime number"
-  }
 }
 console.log(prime(2));
