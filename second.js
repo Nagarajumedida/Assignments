@@ -36,7 +36,7 @@ console.log(prime(2));
 
 
 
-function primes(num1) {
+/*function primes(num1) {
   for (var i = 2; i < num1; i++) {
     if (num1 % i === 0) {
       return false
@@ -45,4 +45,16 @@ function primes(num1) {
   return true
 }
 console.log(primes(17));
-console.log(primes(24));
+console.log(primes(24));*/
+ function primes(num1) {
+   if (num1 % 1 === 0) {
+     console.log(true);
+  }  else if  (num1%num1 === 0)
+       return true;
+       else {
+         return false;
+
+     }
+   }
+
+ console.log(primes(23),"prims");
