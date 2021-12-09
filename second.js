@@ -36,25 +36,33 @@ console.log(prime(2));
 
 
 
-/*function primes(num1) {
-  for (var i = 2; i < num1; i++) {
-    if (num1 % i === 0) {
+function primes(num1) {   //takes parameter
+  for (var i = 2; i < num1; i++) {   //  I is assigning value 2, condition is true or false when the condition is true go to inc
+    if (num1 % i === 0) {           //  ichina number I tho divide cheyyeaga 0 vaste aadi prime kadu
       return false
     }
   }
   return true
 }
-console.log(primes(17));
+console.log(primes(16));  //given number 17
+/*-> first takes i = 2, condition chustundi true or false ani true aaite increment ki veltundi I= 2++ then I = 3
+-> ippudu if condition ki veltundi 17 % 3 reminder 2 so prime number
+-> malli i value 3 teesukoni condition chusi increment chesi i = 4 malli if condition 17/4 reminder 1 so prime
+-> ala ichina number vachina varaku okko value inc chesukoni condition chustundi icchina number vachelopu if condition
+    0 ki equal  aaite prime kadu
+-> aade ichine number 0 ki equal kakapote aadi prime number
 console.log(primes(24));*/
- function primes(num1) {
-   if (num1 % 1 === 0) {
-     console.log(true);
-  }  else if  (num1%num1 === 0)
-       return true;
-       else {
+/*   if (i < num1) {
+  } else if(num1%i === 0){
+        return true;
+      } else {
          return false;
-
      }
    }
+console.log(ps(20));
 
- console.log(primes(23),"prims");
+
+
+ /*for loops take 3 prameters initiialization,condition,inc/dec
+     initiialization assigning value then given condition is true or false
+             if condition is true take the inc/dec then calls the function when the condition is going false*/
