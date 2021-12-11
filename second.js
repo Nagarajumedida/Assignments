@@ -63,6 +63,18 @@ console.log(ps(20));
 
 
 
+
  /*for loops take 3 prameters initiialization,condition,inc/dec
      initiialization assigning value then given condition is true or false
              if condition is true take the inc/dec then calls the function when the condition is going false*/
+
+function primenumber(num1) {
+  for (var i = 2; i < num1; i++) {
+    if (num1%i !== 0) {
+return true;
+} else {
+return  false
+}
+  }
+}
+console.log(primenumber(18
