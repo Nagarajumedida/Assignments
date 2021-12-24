@@ -77,4 +77,4 @@ return  false
 }
   }
 }
-console.log(primenumber(18
+console.log(primenumber(18)

@@ -1,13 +1,13 @@
 //even  n numbers
-let n = 10;
- function even(i){
+//let n = 10;
+/* function even(n){
 for (var i = 2; i <= n; i++) {
-  if(i %2 == 0){
+  if(i % 2 == 0){
     console.log(i);
   }
 }
 }
-even();
+even(10);
 //even odd numbers
 let l = 20;
 function odd(i) {
@@ -17,19 +17,18 @@ function odd(i) {
   }
   }
 }
-odd();
+odd();*/
 //nprime numbers
-let j= 10;
-function prime() {
-  for (var i = 0; i <= j; i++) {
-  if (j %i !== 0) {
-    console.log(i);
-  }
-  }
+let  j = 50;
+function prime(j) {
+  for (var i = 2; i < j; i++) {
+  if (j % i === 0) {return " not a prime"};
 }
-prime();
+  console.log(i);
+}
+console.log(prime(37));
 //while using even
-  let  m = 20;
+  /*let  m = 20;
   function evennum() {
     var i = 0;
     while (i <= m) {
@@ -50,4 +49,4 @@ function oddnum() {
       i++;
 }
 }
-oddnum();
+oddnum();*/
