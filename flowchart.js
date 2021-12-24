@@ -36,7 +36,6 @@ function factorial(n) {
   for (var i = 0; i <= n; n--) {
     x = x * n
   console.log(x);
-
   }
 }
 console.log(factorial(6));
