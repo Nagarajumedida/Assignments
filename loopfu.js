@@ -22,11 +22,12 @@ odd();*/
 let  j = 50;
 function prime(j) {
   for (var i = 2; i < j; i++) {
-  if (j % i === 0) {return " not a prime"};
+  if (j % i === 0) {return " not a prime";
 }
   console.log(i);
 }
-console.log(prime(37));
+}
+console.log(prime(25));
 //while using even
   /*let  m = 20;
   function evennum() {
